@@ -1,0 +1,144 @@
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding-top: 300px;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+  height: 300px;
+  font-size: 60px;
+  color: #566573;
+  background: #B2B9AB;
+}
+
+.search-bar,
+#results {
+  position: relative;
+}
+
+.search-bar {
+  text-align: center;
+  background: #B2B9AB;
+  height: 80px;
+  font-size: 20px;
+  z-index: 150;
+  margin-bottom: -80px;
+  /*display: none;*/
+}
+
+#results {
+  background: #f2f2e8;
+  display: none;
+  padding-top: 170px;
+  padding-bottom: 20px;
+}
+
+header,
+.search-bar-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.search-bar-scrolled {
+  background: #B9ABB2;
+}
+
+#submit-search {
+  color: #566573;
+  cursor: pointer;
+}
+
+.random-button {
+  background: #fff;
+  border: 1px solid #566573;
+  border-radius: 5px;
+  color: #566573;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  opacity: 0.8;
+  padding: 7px 10px;
+  vertical-align: middle;
+}
+
+.random-button > a {
+  color: #566573;
+  text-decoration: none;
+}
+
+#random-page-bar {
+  display: none;
+  margin-right: 50px;
+}
+
+#searchbox {
+  width: 50%;
+  height: 40px;
+  margin: 20px 5px;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+#submit-search {
+  vertical-align: middle;
+}
+
+.ui-autocomplete {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  border-radius: 2px;
+  z-index: 150;
+}
+
+.ui-autocomplete-input {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+.hits {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.list {
+  border-bottom: 1px solid #566573;
+  width: 75%;
+  margin: auto;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 25px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.summary {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.searchmatch {
+  color: #EF5350;
+}
+
+.error {
+  margin-top: -50px;
+  text-align: center;
+  font-size: 24px;
+  color: #EF5350;
+}
+
+.showing {
+  display: none;
+  font-size: 18px;
+  color: #566573;
+  vertical-align: middle;
+}
